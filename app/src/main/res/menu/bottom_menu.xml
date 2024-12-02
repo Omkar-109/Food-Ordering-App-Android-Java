@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:iconTint="#EDF4F2"
+        android:title="Home"
+        android:tooltipText="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/lastorder"
+        android:icon="@drawable/purchaseorder24"
+        android:title="Last Order"
+        android:tooltipText="Last Order"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/resetmain"
+        android:icon="@drawable/reseticon"
+        android:title="Clear Selected"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:iconTint="#EDF4F2"
+        android:title="Settings"
+        android:tooltipText="Settings"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/assist"
+        android:icon="@drawable/baseline_support_agent_24"
+        android:iconTint="#EDF4F2"
+        android:title="Contact Us"
+        android:tooltipText="Contact Us"
+        app:showAsAction="always" />
+
+
+
+
+</menu>
